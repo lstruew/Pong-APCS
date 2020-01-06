@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//The board class is what runs the painting of the board using the information gathered from other classes.
 public class Board extends JPanel implements ActionListener {
     final int WIDTH = 800;
     final int HEIGHT = 600;
